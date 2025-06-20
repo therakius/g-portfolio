@@ -1,0 +1,35 @@
+#hero {
+    display: grid;
+    place-items: center;
+    height: 96vh;
+    box-sizing: border-box;
+}
+
+#hero #intro {
+    width: 50%;
+}
+
+#hero h1 {
+    font-size: 4rem;
+}
+
+#hero h1, #hero p {
+    margin-bottom: 15px;
+}
+
+#hero h5 {
+    color: var(--highlight);
+    font-size: .8rem;
+}
+#hero p{
+    color: var(--background);
+    line-height: 1.4;
+}
+
+#hero .cta {
+    border: 1px solid var(--highlight);
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: medium;
+}

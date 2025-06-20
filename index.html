@@ -1,18 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
+    <link rel="stylesheet" href="./public/styles/styles.css">
+    <link rel="stylesheet" href="./public/styles/hero.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body>
     <header>
+        <h2>
+            {GC}
+        </h2>
         <nav>
-            <li>about</li>
-            <li>services</li>
-            <li>portfolio</li>
-            <li>contact</li>
+            <ul>
+                <li>about</li>
+                <li>services</li>
+                <li>portfolio</li>
+                <li>contact</li>
+            </ul>
+
+            <button id="resume">
+            <span>download</span> cv
+            </button>
         </nav>
     </header>
+
+    <div id="socials">
+        <p>
+            <i class="fa-brands fa-github"></i>
+        </p>
+        <p>
+           <i class="fa-brands fa-linkedin-in"></i>
+        </p>
+        <p>
+            <i class="fa-brands fa-medium"></i>
+        </p>
+    </div>
+
+    <div id="gmail-button">
+        <p>
+            <i class="fa-solid fa-envelope"></i>
+        </p>
+    </div>
+
+
+    <section id="hero">
+
+        <div id="intro">
+            <h5>
+                Hello, my name is
+            </h5>
+            <h1>
+                Gaspar Chichava,
+            </h1>
+            <h1>
+                I am a full stack developer.
+            </h1>
+
+            <p>
+                I design and build modern, responsive web applications with a focus on clarity, performance and purpose. <br> Every interface I create is carefully structured to be intuitive and accessible, while the underlying logic is crafted for readability and simplicity.
+            
+            </p>
+
+            <button class="cta">
+                Get in touch 
+            </button>
+        </div>
+    </section>
+    
 </body>
 </html>
