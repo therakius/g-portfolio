@@ -54,6 +54,7 @@ nav ul > li, nav > button > span{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
 }
 
 #gmail-button {
@@ -82,3 +83,13 @@ section {
     box-sizing: border-box;
 }
 
+.ph-line-vertical {
+    width: 2px;
+    background-color: var(--background);
+    position: relative;
+    left: 2%;
+}
+
+#gmail-button .ph-line-vertical {
+    background-color: transparent;
+}

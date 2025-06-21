@@ -1,0 +1,42 @@
+#services #s-list {
+    /* background-color: blue; */
+    height: 60vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+#services h2, #services h3 {
+    color: var(--highlight);
+}
+
+#services h3, #services p {
+    margin-top: 10px;
+    color: var(--background);
+}
+
+#services .listing {
+    margin-top: 15px;
+    display: grid; 
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 20px;
+    row-gap: 25px;
+}
+
+#services .listing > * {
+    background-color: rgb(21, 20, 26);
+    height: 20vh;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid var(--highlight);
+    border-radius: 10px;
+}
+
+
+
+#services i{
+    font-size: 2rem;
+    overflow: hidden;
+    color: rgb(183, 189, 187);
+}
+
