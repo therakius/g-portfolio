@@ -12,6 +12,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 body {
@@ -72,5 +73,12 @@ button {
     padding: 3px;
     box-sizing: border-box;
     font-weight: bolder;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    height: 96vh;
+    box-sizing: border-box;
 }
 

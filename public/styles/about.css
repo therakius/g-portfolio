@@ -1,0 +1,61 @@
+#about .description{
+    width: 60%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#about .image, #about .details {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.image {
+    /* border-right: 2px solid var(--highlight); */
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    order: 1;
+
+}
+
+.image img {
+    width: 350px;
+}
+
+.details {
+    padding-left: 30px;
+}
+
+#about p {
+    color: var(--background);
+    margin: 15px 0 15px 0;
+}
+
+#about h2, #about h3 {
+    color: var(--highlight);
+}
+
+#about .skills{
+    margin: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "IBM Plex Mono", monospace
+}
+
+#about .skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#about .skills li {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    color: var(--background);
+}
+
+#about button {
+    position: relative;
+}

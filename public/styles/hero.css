@@ -1,12 +1,5 @@
-#hero {
-    display: grid;
-    place-items: center;
-    height: 96vh;
-    box-sizing: border-box;
-}
-
 #hero #intro {
-    width: 50%;
+    width: 60%;
 }
 
 #hero h1 {
@@ -24,6 +17,7 @@
 #hero p{
     color: var(--background);
     line-height: 1.4;
+    width: 80%;
 }
 
 #hero .cta {
