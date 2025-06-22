@@ -300,6 +300,7 @@ i {
 
     footer p {
         margin: 10px;
+        text-align:initial;
     }
 }
 
