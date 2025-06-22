@@ -10,9 +10,16 @@
     color: var(--highlight);
 }
 
+#services p {
+    color: var(--background);
+}
+
+#services h3 {
+    color: var(--highlight);
+}
+
 #services h3, #services p {
     margin-top: 10px;
-    color: var(--background);
 }
 
 #services .listing {
@@ -25,7 +32,7 @@
 
 #services .listing > * {
     background-color: var(--card-color);
-    height: 20vh;
+    height: 22vh;
     box-sizing: border-box;
     padding: 10px;
     border-bottom: 1px solid var(--highlight);

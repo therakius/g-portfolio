@@ -40,8 +40,6 @@
     margin: 15px 0 15px 0;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    font-family: "IBM Plex Mono", monospace
 }
 
 #about .skills ul {
