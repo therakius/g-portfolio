@@ -20,6 +20,7 @@
 
 #services h3, #services p {
     margin-top: 10px;
+    line-height: 1.2;
 }
 
 #services .listing {
@@ -27,12 +28,12 @@
     display: grid; 
     grid-template-columns: 2fr 2fr 2fr;
     gap: 20px;
-    row-gap: 25px;
+    row-gap: 35px;
 }
 
 #services .listing > * {
     background-color: var(--card-color);
-    height: 22vh;
+    height: 18vh;
     box-sizing: border-box;
     padding: 10px;
     border-bottom: 1px solid var(--highlight);
