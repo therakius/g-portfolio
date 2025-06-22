@@ -176,3 +176,89 @@ i {
     padding-top: 10px;
 }
 
+#ham-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 575px) {
+    #ham-menu {
+        display: block;
+        cursor: pointer;
+    }
+    html {
+        font-size: .875rem;
+    }
+
+        h1 {
+        font-size: 1.5rem; /* 24px */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* 20px */
+    }
+
+    h3 {
+        font-size: 1.125rem; /* 18px */
+    }
+
+    h4 {
+        font-size: 1rem; /* 16px */
+    }
+
+    h5 {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    h6 {
+        font-size: 0.75rem; /* 12px */
+    }
+
+    #hero {
+        display: none;
+    }
+
+    header {
+        align-items: inherit;
+        margin-top: 2%;
+        overflow-y: hidden;
+    }
+
+    header i {
+        position: absolute;
+        right: 2%;
+    }
+    nav ul, nav {
+        flex-direction: column;
+    }
+
+    nav {
+        background-color: var(--card-color);
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        height: calc(100vh);
+        width: 65%;
+        padding: 10px;
+        box-sizing: content-box;
+        justify-content: center;
+        font-size: 26px;
+        overflow: hidden;
+        transform: translateX(100%);
+        transition: transform .3s ease;
+    }
+
+    nav.active{
+        transform: translateX(0);
+        transition: .3s ease;
+    }
+
+    nav ul {
+        /* background-color: purple; */
+        height: 40vh;
+        width: 60%;
+    }
+
+}
+
