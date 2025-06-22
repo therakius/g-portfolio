@@ -93,3 +93,21 @@ section {
 #gmail-button .ph-line-vertical {
     background-color: transparent;
 }
+
+
+#footer {
+    height: 18vh;
+}
+
+#footer footer {
+    width: 65%;
+}
+
+#footer h6 {
+    margin-top: 30px;
+    color: grey;
+}
+
+#footer h2 {
+    margin-bottom: 10px;
+}
