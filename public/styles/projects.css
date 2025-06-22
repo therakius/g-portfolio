@@ -70,3 +70,38 @@ p {
 #projects .second-proj {
     order: 0;
 }
+
+@media only screen and (max-width: 575px) {
+   #projects {
+    display: block;
+    height: fit-content;
+   }
+
+   #projects h2 {
+        padding-left: 4%;
+   }
+    #project-listing {
+        margin-top: 20vh;
+        height: fit-content !important;
+        width: 100vw;
+    }
+
+    #proj-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content !important;
+        gap: 30px;
+    }
+
+    #proj-cards > .proj {
+        height: 40vh !important;
+        padding: 15px;
+        width: 95%;
+    }
+
+     #proj-cards > .proj .icons {
+        margin-top: 8px;
+     }
+}
