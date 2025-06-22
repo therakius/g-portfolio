@@ -1,5 +1,5 @@
 :root {
-    --surface: #01070e;
+    --surface: #031120;
     --highlight: aquamarine;
     --text-color: white;
     --background:  #f0ffffa6;
@@ -13,6 +13,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -47,14 +48,22 @@ nav ul > li, nav > button > span{
     text-transform: capitalize;
 }
 
+nav ul > li a:hover {
+    color: var(--highlight);
+    transition: .3s;
+}
+
 #socials {
     position: fixed;
     left: 2%;
     bottom: 3%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    height: 30vh;
+    width: fit-content;
 }
 
 #gmail-button {
@@ -74,6 +83,14 @@ button {
     padding: 3px;
     box-sizing: border-box;
     font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    color: var(--surface);
+    background-color: var(--highlight);
+    border: 1px solid var(--surface);
+    transition: .3s;
 }
 
 section {
@@ -97,6 +114,7 @@ section {
 
 #footer {
     height: 18vh;
+    margin-top: 2.5rem;
 }
 
 #footer footer {
@@ -111,3 +129,27 @@ section {
 #footer h2 {
     margin-bottom: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+i {
+    font-size: 1.5rem;
+    height: 1.5rem;
+    overflow: hidden;
+
+
+}
+
+#socials p:hover, #gmail-button p:hover{
+    color: var(--highlight);
+    transition: .3s;
+    transform: translateY(-24%);
+}
+
+#socials p, #gmail-button p{
+    padding-top: 10px;
+}
+
