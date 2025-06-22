@@ -213,10 +213,6 @@ i {
         font-size: 0.75rem; /* 12px */
     }
 
-    #hero {
-        display: none;
-    }
-
     header {
         align-items: inherit;
         margin-top: 2%;
@@ -260,5 +256,8 @@ i {
         width: 60%;
     }
 
+    #socials, #gmail-button {
+        display: none;
+    }
 }
 
