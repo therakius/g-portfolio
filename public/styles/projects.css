@@ -26,6 +26,7 @@ h2 {
     border-radius: 10px;
     display: grid;
     padding: 10px;
+    overflow: hidden;
 }
 
 #proj-cards > .proj h3, p{
