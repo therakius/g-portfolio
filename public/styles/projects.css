@@ -22,7 +22,7 @@ h2 {
 
 #proj-cards > .proj {
     border-bottom: 1px solid var(--highlight);
-    background-color: #15141a;
+    background-color: var(--card-color);
     border-radius: 10px;
     display: grid;
     padding: 10px;
@@ -55,7 +55,7 @@ p {
 #projects i:hover{
     color: var(--highlight);
     transition: .3s;
-    
+
 }
 
 #projects img {

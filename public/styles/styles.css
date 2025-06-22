@@ -1,8 +1,9 @@
 :root {
-    --surface: #031120;
+    --surface: #010a13;
     --highlight: aquamarine;
     --text-color: white;
     --background:  #f0ffffa6;
+    --card-color: #02051ac7;
 }
 
 * {
@@ -23,6 +24,24 @@ body {
     width: 100vw;
 }
 
+h1 {
+    font-size: 5rem;
+}
+h2{
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
 header {
     padding: 1% 2% 1% 2%;
     width: 100%;
@@ -113,7 +132,7 @@ section {
 
 
 #footer {
-    height: 18vh;
+    height: 20vh;
     margin-top: 2.5rem;
 }
 
@@ -123,7 +142,7 @@ section {
 
 #footer h6 {
     margin-top: 30px;
-    color: grey;
+    color: rgb(78, 78, 78);
 }
 
 #footer h2 {

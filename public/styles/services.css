@@ -24,7 +24,7 @@
 }
 
 #services .listing > * {
-    background-color: #15141a;
+    background-color: var(--card-color);
     height: 20vh;
     box-sizing: border-box;
     padding: 10px;
