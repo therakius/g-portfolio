@@ -49,3 +49,34 @@
     color: rgb(183, 189, 187);
 }
 
+@media only screen and (max-width: 575px) {
+    #services {
+        height: fit-content !important;
+        overflow: auto;
+        display: flex;
+        padding: 0 3%;
+        padding-top: 10vh;
+    }
+
+    #services h2 {
+        margin-bottom: 0;
+    }
+
+    #services > * {
+        width: calc(100vw - 4%) !important;
+        height: fit-content !important;
+    }
+    #services .listing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #services .listing > * {
+        height: 20vh;
+    }
+
+    #services p {
+        width: 95%;
+        line-height: 1.4;
+    }
+}
