@@ -1,5 +1,5 @@
 const hamMenu = document.getElementById('ham-menu');
-const navbar = document.getElementById('navbar');
+const navbar = document.getElementById('navbar-mobile');
 
 
 

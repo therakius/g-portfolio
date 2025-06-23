@@ -97,7 +97,7 @@ p {
     }
 
     #proj-cards > .proj {
-        height: 41vh !important;
+        height: fit-content !important;
         padding: 10px;
         width: 94%;
         box-sizing: border-box;
@@ -105,5 +105,6 @@ p {
 
      #proj-cards > .proj .icons {
         margin-top: 8px;
+        margin-bottom: 10px;
      }
 }
