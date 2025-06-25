@@ -119,7 +119,7 @@ button:hover{
 section {
     display: grid;
     place-items: center;
-    height: 96vh;
+    height: 96dvh;
     box-sizing: border-box;
 }
 
