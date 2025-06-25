@@ -297,14 +297,12 @@ i {
     }
 
     footer {
-        margin-top: 10vh;
         display: block;
-        margin-left: 3%;
-        margin-bottom: 15px;
+        margin: 10vh 3% 15px 3%;
     }
 
     footer #socials-footer {
-        margin-top: 30px;
+        margin-top: 15px;
         display: flex;
         justify-content: space-between;
         width: 50%;
