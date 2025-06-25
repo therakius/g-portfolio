@@ -85,7 +85,7 @@ nav ul > li a:hover {
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    height: 30vh;
+    height: 29vh;
     width: fit-content;
 }
 
