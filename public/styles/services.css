@@ -33,7 +33,7 @@
 
 #services .listing > * {
     background-color: var(--card-color);
-    height: 18vh;
+    height: 20vh;
     box-sizing: border-box;
     padding: 10px;
     border-bottom: 1px solid var(--highlight);
