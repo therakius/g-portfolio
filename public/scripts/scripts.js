@@ -13,7 +13,7 @@ console.log(links)
 
 links.forEach(link => {
     link.addEventListener('click', ()=>{
-        hamMenu.classList.toggle('ph-list');
-        navbar.classList.toggle('active');
+    hamMenu.classList.toggle('ph-x')
+    navbar.classList.toggle('active')
     })
 })
