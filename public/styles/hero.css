@@ -32,6 +32,9 @@
     #hero {
         margin-top: 10px;
     }
+    #hero p {
+        text-align: left;
+    }
     #intro {
         width: 100% !important;
         padding: 0 3%;
