@@ -22,6 +22,8 @@ links.forEach(link => {
 
 buttonToResume.forEach(button =>{
 button.addEventListener('click', (e)=>{
+        hamMenu.classList.toggle('ph-x')
+        navbar.classList.toggle('active')
         window.open("https://drive.google.com/file/d/1s7R809c2zzWXX-Cr2bDsQUkT6FDKOtq7/view?usp=drive_link", "_blank")
     })
 });
