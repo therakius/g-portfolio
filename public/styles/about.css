@@ -19,8 +19,8 @@
 
 }
 
-.image img {
-    width: 350px;
+#about .image > img {
+    height: 330px;
 }
 
 .details {
