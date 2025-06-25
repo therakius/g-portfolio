@@ -1,6 +1,6 @@
 const hamMenu = document.getElementById('ham-menu');
 const navbar = document.getElementById('navbar-mobile');
-const buttonToResume = [document.getElementById('resume'), document.getElementById('about-resume')]
+const buttonToResume = [document.getElementById('resume'), document.getElementById('about-resume'), document.getElementById('resume-mobile')];
 
 
 
