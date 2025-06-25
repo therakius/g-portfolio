@@ -1,5 +1,7 @@
 const hamMenu = document.getElementById('ham-menu');
 const navbar = document.getElementById('navbar-mobile');
+const buttonToResume = [document.getElementById('resume'), document.getElementById('about-resume')]
+
 
 
 
@@ -9,7 +11,7 @@ hamMenu.addEventListener('click', (e)=>{
 })
 
 const links = document.querySelectorAll('#navbar-mobile a')
-console.log(links)
+
 
 links.forEach(link => {
     link.addEventListener('click', ()=>{
@@ -17,3 +19,9 @@ links.forEach(link => {
     navbar.classList.toggle('active')
     })
 })
+
+buttonToResume.forEach(button =>{
+button.addEventListener('click', (e)=>{
+        window.open("https://drive.google.com/file/d/1s7R809c2zzWXX-Cr2bDsQUkT6FDKOtq7/view?usp=drive_link", "_blank")
+    })
+});
